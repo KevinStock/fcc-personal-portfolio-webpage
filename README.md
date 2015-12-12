@@ -1,6 +1,6 @@
 #Zipline: Build a Personal Portfolio Webpage
 
-##Objective:
+###Objective:
 
 Build a CodePen.io app that is functionally similar to this: [http://codepen.io/ThiagoFerreir4/full/eNMxEp](http://codepen.io/ThiagoFerreir4/full/eNMxEp).
 
@@ -20,7 +20,7 @@ Don't worry if you don't have anything to showcase on your portfolio yet - you w
 
 There are many great portfolio templates out there, but for this challenge, you'll need to build a portfolio page yourself. Using Bootstrap will make this much easier for you.
 
-Note that CodePen.io overrides the Window.open() function, so if you want to open windows using jQuery, you will need to target invisible anchor elements like this one: '<a target="_blank">'.
+Note that CodePen.io overrides the Window.open() function, so if you want to open windows using jQuery, you will need to target invisible anchor elements like this one: <a target="_blank'>.
 
 Remember to use Read-Search-Ask if you get stuck.
 

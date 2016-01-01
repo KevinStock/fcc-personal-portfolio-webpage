@@ -7,16 +7,29 @@ body {
 	background-color: black;
 }
 
-#home {
-	height: 400px;
-	background-color: purple;
-	background-image: url(../images/CodeBackground.jpg);
+#home a {
+	margin: 5px 3px;
+}
+
+#home,
+#about,
+#portfolio,
+#contact {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 100vh;
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-attachment: fixed;
+}
+
+#home {
+	background-image: url(../images/CodeBackground.jpg);
+	padding-top: 25%;
 }
 
 #titleText {
-	margin-top: 10%;
+	box-sizing: border-box;
 }
 
 .title {
@@ -51,16 +64,13 @@ hr {
 }
 
 #about {
-	height: 400px;
 	background-color: blue;
 }
 
 #portfolio {
-	height: 400px;
 	background-color: aqua;
 }
 
 #contact {
-	height: 400px;
 	background-color: green;
 }

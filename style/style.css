@@ -1,3 +1,66 @@
 .container-fluid {
 	max-width: 75%;
 }
+
+body {
+	padding-top: 50px;
+	background-color: black;
+}
+
+#home {
+	height: 400px;
+	background-color: purple;
+	background-image: url(../images/CodeBackground.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#titleText {
+	margin-top: 10%;
+}
+
+.title {
+	display: block;
+	font-size: xx-large;
+	text-align: center;
+	color: #dac9c9;
+	text-shadow: 1px 1px 15px white;
+}
+
+.subtitle {
+	display: block;
+	font-size: large;
+	text-align: center;
+	color: #dac9c9;
+	text-shadow: 1px 1px 15px white;
+}
+
+hr {
+	height: 3px;
+	background-color: #dac9c9;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: 2px 2px 8px gray;
+}
+
+#socialButtons {
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about {
+	height: 400px;
+	background-color: blue;
+}
+
+#portfolio {
+	height: 400px;
+	background-color: aqua;
+}
+
+#contact {
+	height: 400px;
+	background-color: green;
+}

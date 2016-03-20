@@ -23,6 +23,26 @@ body {
 	background-attachment: fixed;
 }
 
+footer {
+	height: 100px;
+	background-color: gray;
+	padding-top: 20px;
+}
+
+#copyright {
+	padding-left: 50px;
+}
+
+footer ul {
+	font-weight: bold;
+	list-style: none;
+	padding-left: 50px;
+}
+
+footer li {
+	display: inline-block;
+}
+
 #home {
 	background-image: url(../images/CodeBackground.jpg);
 	padding-top: 25%;
